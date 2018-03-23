@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Countries Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <section id="game-start" class="screen is-open">
+        <h1>Welcome to the country game</h1>
+        <p>The goal is to find the good Flag</p>
+        <button>Start</button>
+    </section>
+
+    <main id="game">
+        <header>
+            <div class="lives">
+                <img src="like.svg">
+                <img src="like.svg">
+                <img src="like.svg">
+            </div>
+
+            <h1>Countries</h1>
+
+            <div class="time"><span>20</span>s</div>
+        </header>
+
+        <h2>France</h2>
+
+        <div class="flags">
+            <div class="flag"><img src="flags/fr.svg"></div>
+            <div class="flag"><img src="flags/fr.svg"></div>
+            <div class="flag"><img src="flags/fr.svg"></div>
+            <div class="flag"><img src="flags/fr.svg"></div>
+        </div>
+
+        <div class="score">Your score : <strong>0</strong></div>
+    </main>
+
+    <section id="game-over" class="screen">
+        <h1>Game Over</h1>
+        <button>Restart</button>
+    </section>
+
+    <script src="data.js"></script>
+    <!-- écrivez votre code dans ce fichier -->
+    <script src="app-better-logic.js"></script>
+</body>
+</html>
